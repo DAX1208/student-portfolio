@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.app-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  padding: 24px;
+  border-radius: 16px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+}
+
+header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.main-content {
+  display: grid;
+  gap: 24px;
+}
+
+section {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.08);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: disc inside;
+  margin: 0;
+  padding-left: 18px;
+}
+
+footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #475569;
+}

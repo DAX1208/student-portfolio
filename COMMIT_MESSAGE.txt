@@ -1,0 +1,1 @@
+Initial commit: scaffold React + Vite portfolio and add reusable components Header, About, Skills, Projects, Footer.
