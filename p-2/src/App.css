@@ -1,0 +1,60 @@
+.app-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.navbar a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  padding: 10px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #0070f3;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0055c8;
+}
+
+.help-box {
+  margin-top: 16px;
+  padding: 12px;
+  background: #eef6ff;
+  border-left: 4px solid #0070f3;
+  border-radius: 8px;
+}
